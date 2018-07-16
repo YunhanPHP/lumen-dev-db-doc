@@ -20,7 +20,6 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><a href="{{ route('ddoc.export','html') }}"><i class="fa fa-file-zip-o"></i> Html</a></li>
-                    <li><a href="{{ route('ddoc.export','pdf') }}"><i class="fa fa-file-pdf-o"></i> PDF</a></li>
                     <li><a href="{{ route('ddoc.export','md') }}"><i class="fa fa-file-pdf-o"></i> Markdown</a></li>
 
                 </ul>

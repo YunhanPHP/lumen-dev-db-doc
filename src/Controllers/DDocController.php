@@ -46,7 +46,7 @@ class DDocController extends Controller
      */
     public function export($type)
     {
-        if(!in_array($type,array('html','pdf','md'))){
+        if(!in_array($type,array('html','md'))){
             return null;
         }
         $tables = $this->initTablesData();
