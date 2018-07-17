@@ -2,14 +2,12 @@
 
 namespace Jormin\DDoc\Controllers;
 
-use Illuminate\Routing\Controller;
-use Barryvdh\Snappy\Facades\SnappyPdf;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\View;
 
-class DDocController extends Controller
+class DDocController
 {
 
     /**
