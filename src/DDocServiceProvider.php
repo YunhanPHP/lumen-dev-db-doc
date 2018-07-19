@@ -2,9 +2,7 @@
 
 namespace Jormin\DDoc;
 
-use Barryvdh\Snappy\IlluminateSnappyPdf;
-use Barryvdh\Snappy\PdfWrapper;
-use Barryvdh\Snappy\ServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
 class DDocServiceProvider extends ServiceProvider
 {
@@ -42,7 +40,6 @@ class DDocServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register('Barryvdh\Snappy\ServiceProvider');
     }
 
     protected function isLumen()
