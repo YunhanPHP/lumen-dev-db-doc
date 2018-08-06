@@ -9,7 +9,7 @@
  1. 安装包文件
 
 	``` bash
-	$ composer require yunhantech/laravel-db-doc
+	$ composer require --dev yunhanphp/lumen-dev-db-doc
 	```
 
 ## 配置
